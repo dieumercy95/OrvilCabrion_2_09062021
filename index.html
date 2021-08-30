@@ -2,45 +2,63 @@
 <html>
   <head>
     <meta charset="utf-8" />
+    <link rel="stylesheet" href="styles.css" />
     <title>Reservia</title>
+    <script
+      src="https://kit.fontawesome.com/4a7af62695.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
   </head>
 
   <body>
-       
-    <header>
-      <img id="logo" src="images/logo/Reservia@3x.png" alt="Logo de Reservia" />
-
-      <nav>
-        <ul>
-          <li><a href="#">Hébergement</a></li>
-          <li><a href="#">Activités</a></li>
-          <li><a href="#">S'incrire</a></li>
-        </ul>
-      </nav>
-         
-    </header>
-
-    <footer>
-      <div id="a_propos">
-        <h1>A propos</h1>
-        <div id="listes_a_propos">
+    <div id="conteneur">
+      <!--Header-->  
+      <header>
+        <nav>
+          <img
+            id="logo"
+            src="images/logo/Reservia@3x.png"
+            alt="Logo de Reservia"
+          />
           <ul>
-            <li><a href="#">Fonctionnement du site</a></li>
-            <li><a href="#">Conditions générales de ventes</a></li>
-            <li><a href="#">Données et confidentialité</a></li>
+            <li><a class="hebergements" href="#">hébergements</a></li>
+            <li><a class="activites" href="#">Activités</a></li>
+            <li><a class="inscrire" href= "#" >S'inscrire</a></li>
           </ul>
-        </div>
-      </div>
+        </nav>
+           
+      </header>
 
-      <div id="nos_hebergements">
-        <h1>Nos hébergements</h1>
-        <div id="listes_nos_hebergements">
-          <ul>
-            <li><a href="#">Charte qualité</a></li>
-            <li><a href="#">Soumettre votre hôtel</a></li>
-          </ul>
+      <footer>
+        <div id="a_propos">
+          <h1>A propos</h1>
+          <div id="listes_a_propos">
+            <ul>
+              <li><a href="#">Fonctionnement du site</a></li>
+              <li><a href="#">Conditions générales de ventes</a></li>
+              <li><a href="#">Données et confidentialité</a></li>
+            </ul>
+          </div>
         </div>
-      </div>
-    </footer>
+
+        <div id="nos_hebergements">
+          <h1>Nos hébergements</h1>
+          <div id="listes_nos_hebergements">
+            <ul>
+              <li><a href="#">Charte qualité</a></li>
+              <li><a href="#">Soumettre votre hôtel</a></li>
+            </ul>
+          </div>
+        </div>
+      </footer>
+    </div>
   </body>
 </html>

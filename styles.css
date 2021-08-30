@@ -1,0 +1,54 @@
+/*MaxWidth et centrage principal*/
+body {
+  font-family: "Raleway", sans-serif;
+  
+}
+
+#conteneur {
+  max-width: 1400px;
+  margin: auto;
+}
+
+/* Header */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+nav img {
+    height: 32px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    ;
+}
+
+nav li {
+    margin: 0 10px 0 50px;
+}
+
+nav a {
+    font-size: 1em;
+    color: #0065FC;
+    padding-bottom: 0px;
+    text-decoration: none;
+    
+}
+nav .hebergements:hover{
+   
+    border-top:  0.5px solid #0065FC;
+    
+    
+}
+
+nav .activites {
+    color:unset;
+}
+
+nav .inscrire{
+    font-weight: 600;
