@@ -34,6 +34,7 @@ nav a {
   color: #0065fc;
   padding-bottom: 0px;
   text-decoration: none;
+<<<<<<< HEAD
 }
 nav .hebergements:hover {
   border-top: 0.5px solid #0065fc;
@@ -74,9 +75,136 @@ nav .inscrire {
 }
 .filter span{
     display:inline-block;
+=======
+}
+nav .hebergements:hover {
+  border-top: 0.5px solid #0065fc;
+  padding: 40px;
+}
+
+nav .activites {
+  color: unset;
+}
+
+nav .inscrire {
+  font-weight: 600;
+}
+
+/* Section filtre */
+
+
+.fa-map-marker-alt{
+    padding: 10px 15px 12px 13px;
+    background-color: #F2F2F2;
+    border-end-start-radius: 13px;
+    border-start-start-radius: 13px;
+}
+
+#map{
+    margin: 0px;
+}
+button{
+    padding: 9px 15px 10px 10px;
+    background-color: #0065fc;
+    border-bottom-right-radius: 13px;
+    border-start-end-radius: 13px;
+    border: none;
+    color: white;
+}
+
+input{
+    padding: 8px 15px 10px 10px;
+    border: 1px solid #F2F2F2;
+    margin-left: -4px;
+    
+}
+
+
+.filtre{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+#filtre i{
+    font-size: smaller;
+}
+
+#money {
+    margin: 2px 0px 0px 0px;   
+}
+
+#fami{
+    margin: 2px 0px 0px 2px;
+}
+
+#coeur{
+    margin: 2px 0px 0px 1px;
+}
+
+*{
+    box-sizing:border-box;
+  
+}
+.filter{
+  
+    padding: 0px 15px 10px 0px;
+    border: 2px solid #F2F2F2;
+    display: inline-block;
+    border-radius: 17px;
+    height: 32px;
+    margin-left: 20px;
+    border-left: none;
+  
+}
+.filter span:first-child{
+     height:29px;
+     width:29px;
+     background: #DEEBFF;
+     border-radius:16px;
+     position:relative;
+ 
+}
+.filter span{
+    display:inline-block;
   
 }
 
+
+.filter span:first-child i{
+   
+    width:16px;
+    height:16px;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate3d(-8px, -8px, 0);
+  
+}
+
+.filter span:last-child{ 
+   margin-left:7px;
+   transform:translate3d(0,5px,0);
+   vertical-align:top;
+>>>>>>> add_body
+  
+}
+.filter:hover{
+  
+    background:blue;
+    color:#ffffff;
+  
+}
+
+.fa-info-circle{
+    margin-top: 41px;
+}
+
+
+
+
+<<<<<<< HEAD
 
 .filter span:first-child i{
    
@@ -104,3 +232,5 @@ nav .inscrire {
 
 
 
+=======
+>>>>>>> add_body
