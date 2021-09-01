@@ -1,17 +1,17 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr">
   <head>
     <meta charset="utf-8" />
     <link rel="stylesheet" href="styles.css" />
+    <!--importation de styles-->
     <title>Reservia</title>
-    <script
-      src="https://kit.fontawesome.com/4a7af62695.js"
-      crossorigin="anonymous"
-    ></script>
-
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
-      href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;400;700&display=swap"
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+    />
+    <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;300;400;700&display=swap"
       rel="stylesheet"
     />
 
@@ -31,15 +31,84 @@
           <ul>
             <li><a class="hebergements" href="#">hébergements</a></li>
             <li><a class="activites" href="#">Activités</a></li>
-            <li><a class="inscrire" href= "#" >S'inscrire</a></li>
+            <li><a class="inscrire" href="#">S'inscrire</a></li>
           </ul>
         </nav>
            
       </header>
 
+      <!--Main-->
+      <main>
+        <!--Section du filtre-->
+        <section id="filtre">
+          <h1>Trouver votre hébergement pour des vacances de rêve</h1>
+          <p>En plein centre ville ou en pleine nature</p>
+
+          <form method="post" action="traitement.php">
+            <p>
+              <i id="map" class="fas fa-map-marker-alt"></i>
+              <input
+                type="text"
+                name="recherche"
+                id="recherche"
+                placeholder="Marseille,France"
+              /><button>Rechercher</button>
+            </p>
+          </form>
+          <div class="filtre">
+             
+            <span>Filtres</span>
+
+            <div class="filter">
+
+              <span>
+                <i id="money" class="fas fa-money-bill-wave" style="color:#0065fc;"></i>
+              </span>
+
+              <span>&Eacute;conomique</span>
+            </div>
+
+            <div class="filter">
+              <span>
+                <i id="fami" class="fas fa-solid fa-child" style="color:#0065fc;"></i>
+              </span>
+
+              <span>Familial</span>
+            </div>
+
+            <div class="filter">
+              <span>
+                <i id="coeur" class="fas fa-solid fa-heart" style="color:#0065fc;"></i>
+              </span>
+
+              <span>Romantique</span>
+            </div>
+
+            <div class="filter">
+              <span>
+                <i class="fas fa-solid fa-dog" style="color:#0065fc;"></i>
+              </span>
+
+              <span>Animaux autorisés</span>
+            </div>
+
+          </div>
+
+            <div>
+              <span>
+                <i class="fas fa-info-circle" ></i>
+              </span>
+              <span
+                >Plus de 500 logements sont disponibles dans cette ville</span
+              >
+            </div>
+          
+        </section>
+      </main>
+
       <footer>
         <div id="a_propos">
-          <h1>A propos</h1>
+          <h2>A propos</h2>
           <div id="listes_a_propos">
             <ul>
               <li><a href="#">Fonctionnement du site</a></li>
@@ -50,7 +119,7 @@
         </div>
 
         <div id="nos_hebergements">
-          <h1>Nos hébergements</h1>
+          <h2>Nos hébergements</h2>
           <div id="listes_nos_hebergements">
             <ul>
               <li><a href="#">Charte qualité</a></li>
