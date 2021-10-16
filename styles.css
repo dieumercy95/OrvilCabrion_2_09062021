@@ -183,6 +183,7 @@ input {
 }
 #dortoire a {
   text-decoration: none;
+  font-size: 1rem;
 }
 #hebergements {
   width: 70%;
@@ -279,6 +280,11 @@ aside a {
   display: flex;
   gap: 20px;
   border-radius: 15px;
+  margin: 20px 0px;
+}
+h3{
+  margin-top: 70px;
+  font-size:1.1rem;
 }
 
 #activite a {
@@ -303,13 +309,13 @@ aside a {
 #activite .blocs-divises a {
   display: inline-block;
   width: 100%;
-  /* width: 21.3vw; */
+  
     border-radius: 15px;
     background-color: #fff;
     box-shadow: 0 0 16px #0000002e;
     height: 215px;
   /* height: calc((100% / 2) - (20px / 2)); */
-  border: 1px solid red;
+  /* border: 1px solid red; */
 }
 
 #bloc-divises-premier{
@@ -352,7 +358,7 @@ aside a {
   height: 70%;
   border-radius: 15px 15px 0px 0px;
   object-fit: cover;
-  border: 1px solid green;
+  /* border: 1px solid green; */
 }
 
 #activite .premiers-blocs:first-child,
@@ -365,5 +371,29 @@ width: 21.3vw;
 .text_activites{
   font-size:1.1rem; 
     padding-left: 2.5em;
+    padding-top: 0.5rem;
     font-weight: bold;
+}
+
+/* Footer */
+
+footer{
+  background-color:#f2f2f2 ;
+  display: flex;
+  margin: 40px 0px;
+  width: 100%;
+  line-height: 2.2em;
+  
+}
+
+.pieds{
+  display: flex;
+  flex-direction: column;
+  width: 33vw;
+}
+
+footer ul{
+  
+  list-style: none; 
+  
 }
