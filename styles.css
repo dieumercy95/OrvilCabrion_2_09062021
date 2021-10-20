@@ -390,6 +390,9 @@ footer{
   display: flex;
   flex-direction: column;
   width: 33vw;
+  font-size: 1.1rem;
+  line-height: 2.2em;
+
 }
 
 footer ul{
