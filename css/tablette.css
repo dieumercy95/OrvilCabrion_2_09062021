@@ -1,0 +1,20 @@
+
+/* tablette */
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    #dortoire {
+      display: flex;
+      flex-direction: column-reverse;
+      
+    }
+        
+    header {
+        width: 60%;
+    }
+    aside{
+        width: 41%;
+    }
+    #filtre{
+        width: auto ;
+    }
+
+}

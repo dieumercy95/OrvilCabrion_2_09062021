@@ -10,34 +10,34 @@ html {
   margin: 0 auto;
   padding-right: 20px;
   padding-left: 20px;
+  /* background-color: rgb(71, 51, 20); */
 }
 
 /* Header */
 
-nav {
+#tete {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-nav img {
+#logo {
   height: 32px;
 }
 
-nav ul {
-  display: flex;
-  list-style: none;
-}
+/* nav a {
+  justify-content:space-around;
+  
+} */
 
-nav li {
-  margin: 0 10px 0 50px;
-}
 
 nav a {
+ 
   font-size: 1em;
   color: #0065fc;
   padding-bottom: 0px;
   text-decoration: none;
+  list-style: none;
 }
 nav .hebergements:hover {
   border-top: 1px solid #0065fc;
@@ -46,10 +46,12 @@ nav .hebergements:hover {
 
 nav .activites {
   color: unset;
+  margin: 0px 0px 0px 50px;
 }
 
 nav .inscrire {
   font-weight: 600;
+  margin-left: 50px;
 }
 
 /* Formulaire */
@@ -75,6 +77,10 @@ button {
   border-start-end-radius: 13px;
   border: none;
   color: white;
+}
+
+#search{
+  display: none;
 }
 
 input {
@@ -397,6 +403,13 @@ footer{
 
 footer ul{
   
-  list-style: none; 
-  
+  list-style: none;  
 }
+
+ 
+    /* gap: 30px; */
+  
+
+
+
+  

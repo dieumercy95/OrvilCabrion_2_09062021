@@ -2,7 +2,9 @@
 <html lang="fr">
   <head>
     <meta charset="utf-8" />
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="css/index.css" />
+    <link rel="stylesheet" href="css/tablette.css" />
+    <link rel="stylesheet" href="css/mobile.css" />
     <!--importation de styles-->
     <title>Reservia</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css" integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous">
@@ -23,19 +25,18 @@
     <div id="conteneur">
       <!--Header-->  
       <header>
-        <nav>
+        <div id="tete">
           <img
             id="logo"
             src="images/logo/Reservia@3x.png"
             alt="Logo de Reservia"
           />
-          <ul>
-            <li><a class="hebergements" href="#hebergements">hébergements</a></li>
-            <li><a class="activites" href="#">Activités</a></li>
-            <li><a class="inscrire" href="#">S'inscrire</a></li>
-          </ul>
+        <nav>
+          <a class="hebergements" href="#hebergements">Hébergements</a>
+          <a class="activites" href="#">Activités</a>
+          <a class="inscrire" href="#">S'inscrire</a>
         </nav>
-           
+      </div>    
       </header>
 
       <!--Main-->
@@ -53,7 +54,12 @@
                 name="recherche"
                 id="recherche"
                 placeholder="Marseille, France"
-              /><button>Rechercher</button>
+              /><button>
+
+                 <span id="boutton">Rechercher</span>
+                 <i id="search" class="fas fa-search" aria-hidden="true"></i>
+
+              </button>
             </p>
           </form>
           <div class="filtre">
